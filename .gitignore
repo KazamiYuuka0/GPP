@@ -1,0 +1,17 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# ---- 本地缓存 / IDE ----
+.data_cache/
+.idea/
+.vscode/
+
+# ---- 密钥：只放本地，永不提交 ----
+.env
+.env.*
+
+# ---- 大体积行情数据（约 71MB，用 download.py 自行生成）----
+data/*.csv
